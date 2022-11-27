@@ -465,3 +465,36 @@ section.about-page{
     padding-left:140px;
     padding-right:140px;
 }
+
+/* PAGEEE EDUCATION */
+section.education-section{
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+    min-height: 100vh;
+}
+
+.section-education{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    align-self: left;
+    flex: 1 1;
+    height:auto;
+    max-width:100%;
+    padding-left:140px;
+    padding-right:140px;
+}
+
+.subheading {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: #272727;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0.25px;
+    text-transform: none;
+}

@@ -15,8 +15,8 @@ function HomePage() {
             </div>
             <nav>
               <Link to='/about' className="nav-buttons">About</Link>
-              <a href="education.html" class="nav-buttons">Education</a>
-              <a href="interests.html" class="nav-buttons">Interests</a>
+              <Link to='/education' className="nav-buttons">Education</Link>
+              <Link to='/interests' className="nav-buttons">Interests</Link>
               <a href="skills.html" class="nav-buttons">Skills</a>
             </nav> 
             </div> 

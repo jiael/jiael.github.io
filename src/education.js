@@ -3,7 +3,7 @@ import './my.css';
 import test from './me.jpg';
 import mail from './mail.svg';
 import { Link } from 'react-router-dom';
-function About() {
+function Education() {
     return (
         <body>
             <header class="header shadow">         
@@ -13,7 +13,7 @@ function About() {
                     </div>
                     <nav>
                         <Link to='/about' className="nav-buttons">About</Link>
-                        <Link to='/education' className="nav-buttons">Education</Link>
+                        <Link to='/education' class="nav-buttons">Education</Link>
                         <Link to='/interests' className="nav-buttons">Interests</Link>
                         <a href="skills.html" class="nav-buttons">Skills</a>
                     </nav>
@@ -30,10 +30,10 @@ function About() {
             <img src={mail} alt="mail symbol" width="30" class="mail"/>
             </a>
             </div>
-            <section class="interests-section">
-                <div class="section-interests">
+            <section class="education-section">
+                <div class="section-education">
                 <strong class="h1">
-                    About Me
+                    Education
                 </strong>
                 <p class="body-hero">
                     This page is currently under construction, please check back later!
@@ -44,4 +44,4 @@ function About() {
     );
 }
 
-export default About;
+export default Education;
